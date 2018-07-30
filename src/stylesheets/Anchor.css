@@ -1,0 +1,11 @@
+.Anchor {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted var(--blue);
+    padding: 0.2rem 0;
+}
+
+.Anchor:hover {
+    color: var(--blue);
+}
