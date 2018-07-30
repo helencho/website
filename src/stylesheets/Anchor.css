@@ -2,10 +2,11 @@
     display: inline-block;
     text-decoration: none;
     color: black;
-    border-bottom: 1px dotted var(--blue);
+    border-bottom: 1px dotted var(--blue, deepskyblue);
     padding: 0.2rem 0;
+    transition: 0.2s all;
 }
 
 .Anchor:hover {
-    color: var(--blue);
+    color: var(--blue, deepskyblue);
 }
