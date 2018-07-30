@@ -5,8 +5,10 @@
     border: none;
     border: 1px solid var(--black, black);
     color: var(--black, black);
-    padding: 0.4rem 1.2rem;
-    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
     transition: 0.2s all;
 }
 
