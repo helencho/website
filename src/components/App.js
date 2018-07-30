@@ -10,6 +10,7 @@ import Test from './pages/Test';
 import '../stylesheets/Button.css';
 import '../stylesheets/Anchor.css';
 import '../stylesheets/Link.css';
+import '../stylesheets/NavBar.css';
 
 class App extends Component {
   render() {
