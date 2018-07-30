@@ -5,10 +5,10 @@ class NavBar extends Component {
     render() {
         return (
             <nav>
-                <Link to="/">H</Link>
-                <Link to="/projects">Projects</Link>
-                {/* <Link to="/pixel">Pixel</Link> */}
-                <Link to="/about">About</Link>
+                <Link to="/" className="Link">H</Link>
+                <Link to="/projects" className="Link">Projects</Link>
+                <Link to="/pixel" className="Link">Pixel</Link>
+                <Link to="/about" className="Link">About</Link>
             </nav>
         )
     }
