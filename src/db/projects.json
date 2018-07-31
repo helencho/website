@@ -1,107 +1,169 @@
 [
     {
-        "id": 0,
-        "name": "Project 1",
-        "description": "Project description",
+        "name": "Smood",
+        "description": "Mood tracker + visualizer. Be mindful.",
         "tech": [
-            "tech1",
-            "tech2",
-            "tech3"
+            "Node.js",
+            "React",
+            "Redux",
+            "Postgres",
+            "CSS3"
         ],
         "links": {
             "img": "Image url",
             "live": "Live url",
             "source": "Live url"
-        }
+        },
+        "route": "smood"
     },
     {
-        "id": 1,
-        "name": "Project 1",
-        "description": "Project description",
+        "name": "Elevate",
+        "description": "Manage your job applications and be rewarded for it.",
         "tech": [
-            "tech1",
-            "tech2",
-            "tech3"
+            "AWS S3",
+            "Twilio",
+            "Node.js",
+            "React", 
+            "Postgres",
+            "CSS3"
         ],
         "links": {
             "img": "Image url",
             "live": "Live url",
             "source": "Live url"
-        }
+        },
+        "route": "elevate"
     },
     {
-        "id": 2,
-        "name": "Project 1",
-        "description": "Project description",
+        "name": "Leafbit",
+        "description": "Live healthier and greener with this Fitbit clock face. Angel Hack '18.",
         "tech": [
-            "tech1",
-            "tech2",
-            "tech3"
+            "Fitbit SDK",
+            "JavaScript",
+            "CSS3"
         ],
         "links": {
             "img": "Image url",
             "live": "Live url",
             "source": "Live url"
-        }
+        },
+        "route": "leafbit"
     },
     {
-        "id": 3,
-        "name": "Project 1",
-        "description": "Project description",
+        "name": "Madlify",
+        "description": "Mad Libs inspired phrasal template word game.",
         "tech": [
-            "tech1",
-            "tech2",
-            "tech3"
+            "React",
+            "CSS3"
         ],
         "links": {
             "img": "Image url",
             "live": "Live url",
             "source": "Live url"
-        }
+        },
+        "route": "madlify"
     },
     {
-        "id": 4,
-        "name": "Project 1",
-        "description": "Project description",
+        "name": "TrainMe",
+        "description": "Search engine for vocational courses in the NYC area. Access Code 3rd annual hackathon.",
         "tech": [
-            "tech1",
-            "tech2",
-            "tech3"
+            "NYC Open Data API",
+            "React",
+            "CSS3"
         ],
         "links": {
             "img": "Image url",
             "live": "Live url",
             "source": "Live url"
-        }
+        },
+        "route": "trainme"
     },
     {
-        "id": 5,
-        "name": "Project 1",
-        "description": "Project description",
+        "name": "Connect Four",
+        "description": "Connect four to win.",
         "tech": [
-            "tech1",
-            "tech2",
-            "tech3"
+            "React",
+            "CSS3"
         ],
         "links": {
             "img": "Image url",
             "live": "Live url",
             "source": "Live url"
-        }
+        },
+        "route": "connectfour"
     },
     {
-        "id": 6,
-        "name": "Project 1",
-        "description": "Project description",
+        "name": "Sinistagram",
+        "description": "Instagram inspired photo-sharing platform for the sinister.",
         "tech": [
-            "tech1",
-            "tech2",
-            "tech3"
+            "Node.js",
+            "React",
+            "Postgres",
+            "CSS3"
         ],
         "links": {
             "img": "Image url",
             "live": "Live url",
             "source": "Live url"
-        }
+        },
+        "route": "sinistagram"
+    },
+    {
+        "name": "Sh*t Peter Says",
+        "description": "Farewell gift to the instructor.",
+        "tech": [
+            "JavaScript",
+            "HTML5",
+            "CSS3"
+        ],
+        "links": {
+            "img": "Image url",
+            "live": "Live url",
+            "source": "Live url"
+        },
+        "route": "peter"
+    },
+    {
+        "name": "Snake",
+        "description": "Eat food. Grow. Don't crash.",
+        "tech": [
+            "JavaScript",
+            "HTML Canvas",
+            "CSS3"
+        ],
+        "links": {
+            "img": "Image url",
+            "live": "Live url",
+            "source": "Live url"
+        },
+        "route": "snake"
+    },
+    {
+        "name": "Concentration",
+        "description": "Memory matching game",
+        "tech": [
+            "React",
+            "CSS3"
+        ],
+        "links": {
+            "img": "Image url",
+            "live": "Live url",
+            "source": "Live url"
+        },
+        "route": "concentration"
+    },
+    {
+        "name": "Calculator",
+        "description": "Google Pixel inspired calculator.",
+        "tech": [
+            "React",
+            "CSS3"
+        ],
+        "links": {
+            "img": "Image url",
+            "live": "Live url",
+            "source": "Live url"
+        },
+        "route": "calculator"
     }
 ]
