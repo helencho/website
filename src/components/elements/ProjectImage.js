@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ProjectImage extends Component {
     render() {
         return (
-            <img src="#" alt="Alternate text" />
+            <img src={this.props.url} alt="Image text" />
         )
     }
 }

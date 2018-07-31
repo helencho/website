@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Button from '../elements/Button';
 import Anchor from '../elements/Anchor';
+import ProjectImage from '../elements/ProjectImage';
 
 class Test extends Component {
     render() {
@@ -9,6 +10,7 @@ class Test extends Component {
                 <h1>Test</h1>
                 <Button text="Primary" />
                 <p>I walked 5 miles in <Anchor text="Bear Mountain" /> yesterday.</p>
+                <ProjectImage url="./assets/projects/peter-screely.png" />
             </div>
         )
     }
