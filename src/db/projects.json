@@ -10,9 +10,9 @@
             "CSS3"
         ],
         "links": {
-            "img": "Image url",
-            "live": "Live url",
-            "source": "Live url"
+            "img": "../../public/assets/projects/smood-home-screely.png",
+            "live": "https://smood.herokuapp.com/",
+            "source": "https://github.com/helencho/smood"
         },
         "route": "smood"
     },
@@ -28,9 +28,9 @@
             "CSS3"
         ],
         "links": {
-            "img": "Image url",
-            "live": "Live url",
-            "source": "Live url"
+            "img": "../../public/assets/projects/elevate-splash-screely.png",
+            "live": "http://www.elevate.careers/",
+            "source": "https://github.com/davidyshin/elevate"
         },
         "route": "elevate"
     },
@@ -43,9 +43,9 @@
             "CSS3"
         ],
         "links": {
-            "img": "Image url",
-            "live": "Live url",
-            "source": "Live url"
+            "img": "../../public/assets/projects/leafbit-market-screely.png",
+            "live": "https://leafbit.herokuapp.com/",
+            "source": "https://github.com/helencho/leafbit"
         },
         "route": "leafbit"
     },
@@ -57,9 +57,9 @@
             "CSS3"
         ],
         "links": {
-            "img": "Image url",
-            "live": "Live url",
-            "source": "Live url"
+            "img": "../../public/assets/projects/madlify-screely.png",
+            "live": "https://madlify.netlify.com/",
+            "source": "https://github.com/helencho/madlify"
         },
         "route": "madlify"
     },
@@ -72,9 +72,9 @@
             "CSS3"
         ],
         "links": {
-            "img": "Image url",
-            "live": "Live url",
-            "source": "Live url"
+            "img": "../../public/assets/projects/trainme-search-screely.png",
+            "live": "https://trainme.netlify.com/",
+            "source": "https://github.com/helencho/trainme"
         },
         "route": "trainme"
     },
@@ -86,9 +86,9 @@
             "CSS3"
         ],
         "links": {
-            "img": "Image url",
-            "live": "Live url",
-            "source": "Live url"
+            "img": "../../public/assets/projects/connectfour-bw-screely.png",
+            "live": "https://cccc.netlify.com/",
+            "source": "https://github.com/helencho/connectFour"
         },
         "route": "connectfour"
     },
@@ -102,9 +102,9 @@
             "CSS3"
         ],
         "links": {
-            "img": "Image url",
-            "live": "Live url",
-            "source": "Live url"
+            "img": "../../public/assets/projects/sinistagram-profile-screely.png",
+            "live": "http://sinistagram-gram.herokuapp.com/",
+            "source": "https://github.com/helencho/sinistagram"
         },
         "route": "sinistagram"
     },
@@ -117,9 +117,9 @@
             "CSS3"
         ],
         "links": {
-            "img": "Image url",
-            "live": "Live url",
-            "source": "Live url"
+            "img": "../../public/assets/projects/peter-screely.png",
+            "live": "http://shitpetersays.com/",
+            "source": "https://github.com/helencho/wisdom-generator"
         },
         "route": "peter"
     },
@@ -132,9 +132,9 @@
             "CSS3"
         ],
         "links": {
-            "img": "Image url",
-            "live": "Live url",
-            "source": "Live url"
+            "img": "../../public/assets/projects/snake-start-screely.png",
+            "live": "http://helencho.io/snake/",
+            "source": "https://github.com/helencho/snake"
         },
         "route": "snake"
     },
@@ -146,9 +146,9 @@
             "CSS3"
         ],
         "links": {
-            "img": "Image url",
-            "live": "Live url",
-            "source": "Live url"
+            "img": "../../public/assets/projects/concentration-screely.png",
+            "live": "https://concentration.netlify.com/",
+            "source": "https://github.com/helencho/concentration"
         },
         "route": "concentration"
     },
@@ -160,9 +160,9 @@
             "CSS3"
         ],
         "links": {
-            "img": "Image url",
-            "live": "Live url",
-            "source": "Live url"
+            "img": "../../public/assets/projects/calculator-screely.png",
+            "live": "https://react-calculator.netlify.com/",
+            "source": "https://github.com/helencho/react-calculator"
         },
         "route": "calculator"
     }
