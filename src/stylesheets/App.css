@@ -1,1 +1,55 @@
-/* Maybe combine all the stylesheets here, to prevent importing each stylesheet separately */
+/*--------------------*/
+/*       Anchor       */
+/*--------------------*/
+.Anchor {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted var(--blue, deepskyblue);
+    padding: 0.2rem 0;
+    transition: 0.2s all;
+}
+
+.Anchor:hover {
+    color: var(--blue, deepskyblue);
+}
+
+/*--------------------*/
+/*       Button       */
+/*--------------------*/
+.Button {
+    background: none;
+    background-color: white;
+    outline: none;
+    border: none;
+    border: 1px solid var(--black, black);
+    color: var(--black, black);
+    padding: 0.4rem 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+    transition: 0.2s all;
+}
+
+.Button:hover {
+    border: 1px solid var(--blue, deepskyblue);
+}
+/*--------------------*/
+/*        Link        */ 
+/*--------------------*/
+.Link {
+    text-decoration: none;
+    color: var(--black, black);
+    display: inline-block;
+    font-size: 0.8rem;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+}
+
+/*--------------------*/
+/*       NavBar       */ 
+/*--------------------*/
+.NavBar {
+    background-color: var(--white);
+    padding: 1.2rem 0;
+}

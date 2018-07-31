@@ -7,10 +7,7 @@ import SingleProject from './pages/SingleProject';
 import Pixel from './pages/Pixel';
 import About from './pages/About';
 import Test from './pages/Test';
-import '../stylesheets/Button.css';
-import '../stylesheets/Anchor.css';
-import '../stylesheets/Link.css';
-import '../stylesheets/NavBar.css';
+import '../stylesheets/App.css';
 
 class App extends Component {
   render() {
