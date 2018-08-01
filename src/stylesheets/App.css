@@ -59,10 +59,8 @@
 /*    ProjectImage    */ 
 /*--------------------*/
 .ProjectImage {
-    width: 380px;
+    width: 33%;
     position: relative;
-    /* height: 200px; */
-    /* width: auto; */
 }
 
 .ProjectImage img {
