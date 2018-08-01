@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
-import Anchor from './Anchor';
+import ProjectModal from './ProjectModal';
 
 const style = {
     content: {
@@ -16,7 +16,7 @@ const style = {
         outline: 'none',
         padding: '20px'
     }
-  }
+}
 
 class ProjectImage extends Component {
     state = {
@@ -25,20 +25,13 @@ class ProjectImage extends Component {
 
     componentWillMount() {
         Modal.setAppElement('body');
-     }
-
-    openModal = () => {
-        this.setState({
-            modalOpen: true 
-        })
     }
 
-    closeModal = () => {
+    toggleModal = () => {
         this.setState({
-            modalOpen: false
+            modalOpen: !this.state.modalOpen 
         })
     }
-
 
     render() {
         return (
@@ -46,7 +39,7 @@ class ProjectImage extends Component {
                 <img src={this.props.url} alt={this.props.name} />
                 <div className="overlay">
                     <summary className="text">
-                        <h3 onClick={this.openModal}>{this.props.name}</h3>
+                        <h3 onClick={this.toggleModal}>{this.props.name}</h3>
                         <p>{this.props.description}</p>
                         <p className="highlight">{this.props.stacks}</p>
                     </summary>
@@ -54,27 +47,15 @@ class ProjectImage extends Component {
                 <Modal
                     style={style}
                     isOpen={this.state.modalOpen}
-                    onRequestClose={this.closeModal}
+                    onRequestClose={this.toggleModal}
                     contentLabel="Project Modal">
-                    <section className="ProjectModal">
-                        <header>
-                            <img onClick={this.closeModal} src="./assets/icons/close.png" alt="Exit" className="close" />
-                        </header>
-                        <main>
-                            <aside>
-                                <img src={this.props.url} alt={this.props.name} />
-                            </aside>
-                            <summary>
-                                <h1>{this.props.name}</h1>
-                                <p className="tagline">{this.props.description}</p>
-                                <p>The long description of the project goes here. I built this because there needed to be an easier way to keep track of job applications other than logging into a spreadsheet. User receives reminders on SMS or email, earns points and badges for milestones, and pleasant user interface.</p>
-                                <p className="highlight">{this.props.stacks}</p>
-                                <div className="links">
-                                    <Anchor url="#" text="Live" /> <Anchor url="#" text="Source" />
-                                </div>
-                            </summary>
-                        </main>
-                    </section>
+                    <ProjectModal 
+                        url={this.props.url}
+                        name={this.props.name}
+                        description={this.props.description}
+                        stacks={this.props.stacks}
+                        toggleModal={this.toggleModal}
+                    />
                 </Modal>
             </section>
         )
