@@ -34,6 +34,7 @@
 .Button:hover {
     border: 1px solid var(--blue, deepskyblue);
 }
+
 /*--------------------*/
 /*        Link        */ 
 /*--------------------*/
@@ -52,4 +53,48 @@
 .NavBar {
     background-color: var(--white);
     padding: 1.2rem 0;
+}
+
+/*--------------------*/
+/*    ProjectImage    */ 
+/*--------------------*/
+.ProjectImage {
+    width: 380px;
+    position: relative;
+    /* height: 200px; */
+    /* width: auto; */
+}
+
+.ProjectImage img {
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.overlay {
+    background-color: var(--white);
+    opacity: 0.9;
+    position: absolute;
+    /* bottom: 100%; */
+    top: 100%;
+    overflow: hidden;
+    height: 0;
+    left: 0;
+    right: 0;
+    transition: 0.3s ease;
+}
+
+.ProjectImage:hover .overlay {
+    /* bottom: 0; */
+    top: 0;
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
