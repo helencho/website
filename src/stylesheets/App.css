@@ -72,7 +72,6 @@
     background-color: var(--white);
     opacity: 0.9;
     position: absolute;
-    /* bottom: 100%; */
     top: 100%;
     overflow: hidden;
     height: 0;
@@ -82,7 +81,6 @@
 }
 
 .ProjectImage:hover .overlay {
-    /* bottom: 0; */
     top: 0;
     height: 100%;
 }
@@ -95,4 +93,12 @@
     width: 100%;
     text-align: center;
     transform: translate(-50%, -50%);
+}
+
+/*--------------------*/
+/*      Showcase      */ 
+/*--------------------*/
+.showcase {
+    display: flex;
+    flex-wrap: wrap;
 }
