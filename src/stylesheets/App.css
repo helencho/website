@@ -213,6 +213,31 @@
     font-weight: 500;
 }
 
+/*--------------------*/
+/*        Pixel       */ 
+/*--------------------*/
+.Pixel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.Pixel img {
+    height: 80%;
+}
+
+.Pixel p {
+    font-size: 0.8rem;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+}
+
+
+/*--------------------*/
+/*   Responsiveness   */
+/*    Media Queries   */
+/*--------------------*/
 @media screen and (min-width: 2000px) {
     .ProjectImage {
         width: 25%;
