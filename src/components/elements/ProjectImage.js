@@ -51,10 +51,6 @@ class ProjectImage extends Component {
                     contentLabel="Project Modal">
                     <ProjectModal 
                         data={this.props.data}
-                        // url={this.props.url}
-                        // name={this.props.name}
-                        // description={this.props.description}
-                        // stacks={this.props.stacks}
                         toggleModal={this.toggleModal}
                     />
                 </Modal>
