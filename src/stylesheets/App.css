@@ -1,3 +1,14 @@
+
+.highlight {
+    color: var(--blue, deepskyblue);
+}
+
+.showcase {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 /*--------------------*/
 /*       Anchor       */
 /*--------------------*/
@@ -51,7 +62,7 @@
 /*       NavBar       */ 
 /*--------------------*/
 .NavBar {
-    background-color: var(--white);
+    background-color: var(--white, whitesmoke);
     padding: 1.2rem 0;
 }
 
@@ -63,13 +74,18 @@
     position: relative;
 }
 
+.ProjectImage:hover .overlay {
+    top: 0;
+    height: 100%;
+}
+
 .ProjectImage img {
     width: 100%;
     transition: 0.3s ease;
 }
 
 .overlay {
-    background-color: var(--white);
+    background-color: var(--white, whitesmoke);
     opacity: 0.9;
     position: absolute;
     top: 100%;
@@ -80,11 +96,6 @@
     transition: 0.3s ease;
 }
 
-.ProjectImage:hover .overlay {
-    top: 0;
-    height: 100%;
-}
-
 .text {
     position: absolute;
     overflow: hidden;
@@ -92,13 +103,36 @@
     left: 50%;
     width: 100%;
     text-align: center;
+    line-height: 1.6;
     transform: translate(-50%, -50%);
 }
 
+.ProjectImage .text h3 {
+    cursor: pointer;
+}
+
 /*--------------------*/
-/*      Showcase      */ 
+/*    ProjectModal    */ 
 /*--------------------*/
-.showcase {
-    display: flex;
-    flex-wrap: wrap;
+.ProjectModal {
+    width: 100%;
+    height: 100%;
+}
+
+.ProjectModal .close {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+}
+
+.ProjectModal .close:hover {
+    opacity: 0.9;
+}
+
+.ProjectModal aside {
+    width: 50%;
+}
+
+.ProjectModal aside img {
+    width: 100%;
 }

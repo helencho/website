@@ -17,30 +17,20 @@ class Test extends Component {
                         description="Farewell gift to the instructor"
                         stacks="JavaScript, CSS" />
                     <ProjectImage 
-                        url="./assets/projects/peter-screely.png"
-                        name="Sh*t Peter Says"
-                        description="Farewell gift to the instructor"
+                        url="./assets/projects/calculator-screely.png"
+                        name="Calculator"
+                        description="Google Pixel calculator inspired calculator"
                         stacks="JavaScript, CSS" />
                     <ProjectImage 
-                        url="./assets/projects/peter-screely.png"
-                        name="Sh*t Peter Says"
-                        description="Farewell gift to the instructor"
+                        url="./assets/projects/madlify-screely.png"
+                        name="Madlify"
+                        description="Mad Libs inspired phrasal template word game"
                         stacks="JavaScript, CSS" />
                     <ProjectImage 
-                        url="./assets/projects/peter-screely.png"
-                        name="Sh*t Peter Says"
-                        description="Farewell gift to the instructor"
-                        stacks="JavaScript, CSS" />
-                    <ProjectImage 
-                        url="./assets/projects/peter-screely.png"
-                        name="Sh*t Peter Says"
-                        description="Farewell gift to the instructor"
-                        stacks="JavaScript, CSS" />
-                    <ProjectImage 
-                        url="./assets/projects/peter-screely.png"
-                        name="Sh*t Peter Says"
-                        description="Farewell gift to the instructor"
-                        stacks="JavaScript, CSS" />
+                        url="./assets/projects/smood-home-screely.png"
+                        name="Smood"
+                        description="Mood tracker + visualizer"
+                        stacks="Postgres, Express, React, Node.js" />
                 </section>
             </div>
         )
