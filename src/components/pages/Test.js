@@ -4,6 +4,7 @@ import Anchor from '../elements/Anchor';
 import ProjectImage from '../elements/ProjectImage';
 import Pixel from '../elements/Pixel';
 import pixels from '../../db/pixel.json';
+import projects from '../../db/projects.json';
 
 class Test extends Component {
     render() {
@@ -18,25 +19,17 @@ class Test extends Component {
                 </section>
                 <section className="showcase">
                     <ProjectImage
-                        url="./assets/projects/peter-screely.png"
-                        name="Sh*t Peter Says"
-                        description="Farewell gift to the instructor"
-                        stacks="JavaScript, CSS" />
+                        data={projects[0]}
+                    />
                     <ProjectImage
-                        url="./assets/projects/calculator-screely.png"
-                        name="Calculator"
-                        description="Google Pixel calculator inspired calculator"
-                        stacks="JavaScript, CSS" />
+                        data={projects[1]}
+                    />
                     <ProjectImage
-                        url="./assets/projects/madlify-screely.png"
-                        name="Madlify"
-                        description="Mad Libs inspired phrasal template word game"
-                        stacks="JavaScript, CSS" />
+                        data={projects[2]}
+                    />
                     <ProjectImage
-                        url="./assets/projects/smood-home-screely.png"
-                        name="Smood"
-                        description="Mood tracker + visualizer"
-                        stacks="Postgres, Express, React, Node.js" />
+                        data={projects[3]}
+                    />
                 </section>
             </div>
         )

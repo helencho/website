@@ -36,12 +36,12 @@ class ProjectImage extends Component {
     render() {
         return (
             <section className="ProjectImage">
-                <img src={this.props.url} alt={this.props.name} />
+                <img src={this.props.data.links.img} alt={this.props.data.name} />
                 <div className="overlay">
                     <summary className="text">
-                        <h3 onClick={this.toggleModal}>{this.props.name}</h3>
-                        <p>{this.props.description}</p>
-                        <p className="highlight">{this.props.stacks}</p>
+                        <h3 onClick={this.toggleModal}>{this.props.data.name}</h3>
+                        <p>{this.props.data.tagline}</p>
+                        <p className="highlight">{this.props.data.tech.join(', ')}</p>
                     </summary>
                 </div>
                 <Modal
@@ -50,10 +50,11 @@ class ProjectImage extends Component {
                     onRequestClose={this.toggleModal}
                     contentLabel="Project Modal">
                     <ProjectModal 
-                        url={this.props.url}
-                        name={this.props.name}
-                        description={this.props.description}
-                        stacks={this.props.stacks}
+                        data={this.props.data}
+                        // url={this.props.url}
+                        // name={this.props.name}
+                        // description={this.props.description}
+                        // stacks={this.props.stacks}
                         toggleModal={this.toggleModal}
                     />
                 </Modal>

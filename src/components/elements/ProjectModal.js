@@ -6,19 +6,19 @@ class ProjectModal extends Component {
         return (
             <section className="ProjectModal">
                 <header>
-                    <img onClick={this.props.toggleModal} src="./assets/icons/close.png" alt="Exit" className="close" />
+                    <img onClick={this.props.toggleModal} src="./assets/icons/close.png" alt="Close" className="close" />
                 </header>
                 <main>
                     <aside>
-                        <img src={this.props.url} alt={this.props.name} />
+                        <img src={this.props.data.links.img} alt={this.props.data.name} />
                     </aside>
                     <summary>
-                        <h1>{this.props.name}</h1>
-                        <p className="tagline">{this.props.description}</p>
-                        <p>The long description of the project goes here. I built this because there needed to be an easier way to keep track of job applications other than logging into a spreadsheet. User receives reminders on SMS or email, earns points and badges for milestones, and pleasant user interface.</p>
-                        <p className="highlight">{this.props.stacks}</p>
+                        <h1>{this.props.data.name}</h1>
+                        <p className="tagline">{this.props.data.tagline}</p>
+                        <p>{this.props.data.description}</p>
+                        <p className="highlight">{this.props.data.tech.join(', ')}</p>
                         <div className="links">
-                            <Anchor url="#" text="Live" /> <Anchor url="#" text="Source" />
+                            <Anchor url={this.props.data.links.live} text="Live" /> <Anchor url={this.props.data.links.source} text="Source" />
                         </div>
                     </summary>
                 </main>
