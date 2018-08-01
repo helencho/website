@@ -9,7 +9,7 @@ const style = {
         right: 0,
         bottom: 0,
         border: 'none',
-        background: 'var(--white, whitesmoke)',
+        background: 'white',
         opacity: '0.9',
         overflow: 'auto',
         outline: 'none',
