@@ -9,7 +9,7 @@ class Test extends Component {
             <div>
                 <h1>Test</h1>
                 <Button text="Primary" />
-                <p>I walked 5 miles in <Anchor text="Bear Mountain" /> yesterday.</p>
+                <p>I walked 5 miles in <Anchor url="#" text="Bear Mountain" /> yesterday.</p>
                 <section className="showcase">
                     <ProjectImage 
                         url="./assets/projects/peter-screely.png"

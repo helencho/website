@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
+import Anchor from './Anchor';
 
 const style = {
     content: {
@@ -10,7 +11,7 @@ const style = {
         bottom: 0,
         border: 'none',
         background: 'white',
-        opacity: '0.9',
+        opacity: '0.999',
         overflow: 'auto',
         outline: 'none',
         padding: '20px'
@@ -56,12 +57,22 @@ class ProjectImage extends Component {
                     onRequestClose={this.closeModal}
                     contentLabel="Project Modal">
                     <section className="ProjectModal">
-                        <img onClick={this.closeModal} src="./assets/icons/close.png" alt="Exit" className="close" />
-                        <aside>
-                            <img src={this.props.url} alt={this.props.name} />
-                        </aside>
+                        <header>
+                            <img onClick={this.closeModal} src="./assets/icons/close.png" alt="Exit" className="close" />
+                        </header>
                         <main>
-                            <h1>{this.props.name}</h1>
+                            <aside>
+                                <img src={this.props.url} alt={this.props.name} />
+                            </aside>
+                            <summary>
+                                <h1>{this.props.name}</h1>
+                                <p className="tagline">{this.props.description}</p>
+                                <p>The long description of the project goes here. I built this because there needed to be an easier way to keep track of job applications other than logging into a spreadsheet. User receives reminders on SMS or email, earns points and badges for milestones, and pleasant user interface.</p>
+                                <p className="highlight">{this.props.stacks}</p>
+                                <div className="links">
+                                    <Anchor url="#" text="Live" /> <Anchor url="#" text="Source" />
+                                </div>
+                            </summary>
                         </main>
                     </section>
                 </Modal>
