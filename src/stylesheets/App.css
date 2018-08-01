@@ -10,12 +10,14 @@
     flex-wrap: wrap;
 }
 
+/* Modal fades in when opens */ 
 .ReactModal__Overlay,
 .ReactModal__Overlay--after-open {
     animation: fadein .3s ease-in;
     animation-fill-mode: forwards;
 }
 
+/* Ensures background does not scroll */
 .ReactModal__Body--open {
     overflow: hidden;
     position: fixed;
