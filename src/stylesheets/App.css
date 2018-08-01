@@ -16,6 +16,13 @@
     animation-fill-mode: forwards;
 }
 
+.ReactModal__Body--open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
 /*--------------------*/
 /*     Animations     */
 /*--------------------*/
@@ -204,7 +211,34 @@
     font-weight: 500;
 }
 
-.ProjectModal main summary .links {
-    bottom: 20px;
-    position: absolute;
+@media screen and (min-width: 2000px) {
+    .ProjectImage {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .ProjectImage {
+        width: 50%;
+    }
+    .ProjectModal .close {
+        width: 32px;
+        height: 32px;
+    }
+    .ProjectModal main {
+        flex-direction: column;
+        top: initial;
+    }
+    .ProjectModal main aside {
+        width: 100%;
+    }
+    .ProjectModal main summary {
+        width: calc(100% - 40px);
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .ProjectImage {
+        width: 100%;
+    }
 }
