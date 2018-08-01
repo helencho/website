@@ -123,6 +123,12 @@
     width: 48px;
     height: auto;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.ProjectModal .close:hover {
+    opacity: 1;
+    transform: rotate(90deg);
 }
 
 .ProjectModal aside {
