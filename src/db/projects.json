@@ -1,7 +1,8 @@
 [
     {
         "name": "Smood",
-        "description": "Mood tracker + visualizer. Be mindful.",
+        "tagline": "Mood tracker + visualizer. Be mindful.",
+        "description": "A progressive web app for tracking daily moods and activities. Provides visual representations of moods using Recharts.js, implements secure authentication using Bcrypt, and tracks state changes through multiple components using Redux. Minimalistic animations for an intuitive user experience.",
         "tech": [
             "Node.js",
             "React",
@@ -18,7 +19,8 @@
     },
     {
         "name": "Elevate",
-        "description": "Manage your job applications and be rewarded for it.",
+        "tagline": "Manage your job applications and be rewarded for it.",
+        "description": "A job application management platform featuring an SMS/email reminder system using Twilio and Nodemailer. Implements an incentivized and gamified reward system with custom-designed badges. Persists user across sessions using Passport.js. Manages file upload on cloud storage on AWS S3 buckets.",
         "tech": [
             "AWS S3",
             "Twilio",
@@ -36,7 +38,8 @@
     },
     {
         "name": "Leafbit",
-        "description": "Live healthier and greener with this Fitbit clock face. Angel Hack '18.",
+        "tagline": "Live healthier and greener with this Fitbit clock face.",
+        "description": "A clock face built using Fitbit SDK to motivate users to lead healthier lifestyles. We tackled the Fitbit Challenge at Angel Hack 2018 Manhattan. Leafbit pairs with a web + native app for users to buy seeds and set goals, watch seeds grow into trees as users progress towards their activity goals, and plant fully mature trees on the map.",
         "tech": [
             "Fitbit SDK",
             "JavaScript",
@@ -51,7 +54,8 @@
     },
     {
         "name": "Madlify",
-        "description": "Mad Libs inspired phrasal template word game.",
+        "tagline": "Mad Libs inspired phrasal template word game.",
+        "description": "A colorful Mad Libs inspired phrasal template word game that prompts users for a list of words to be substituted for blanks in a story.",
         "tech": [
             "React",
             "CSS3"
@@ -65,7 +69,8 @@
     },
     {
         "name": "TrainMe",
-        "description": "Search engine for vocational courses in the NYC area. Access Code 3rd annual hackathon.",
+        "tagline": "Find vocational courses in the NYC area.",
+        "description": "A web application that connects individuals looking to start a new career with vocational resources offered in the New York City area. Interacts with ​NYC Open Data API​ to fetch course data. Winner of best user experience at C4Q Access Code’s third annual Hackathon.",
         "tech": [
             "NYC Open Data API",
             "React",
@@ -80,7 +85,8 @@
     },
     {
         "name": "Connect Four",
-        "description": "Connect four to win.",
+        "tagline": "Connect four to win.",
+        "description": "It's a game from my (and possibly your) childhood. Unlike traditional Connect Four games, the pieces are black and white. Take turns playing with a friend. I built this to prepare for interviews, practice my algorithms, and familiarize myself with matrices.",
         "tech": [
             "React",
             "CSS3"
@@ -94,7 +100,8 @@
     },
     {
         "name": "Sinistagram",
-        "description": "Instagram inspired photo-sharing platform for the sinister.",
+        "tagline": "Instagram inspired photo-sharing platform for the sinister.",
+        "description": "A photo-sharing platform that looks eerily similar to Instagram. Interacts with a RESTful API to fetch data that populates the feed, user profiles, and allows users to publish posts. Sign up if you're evil.",
         "tech": [
             "Node.js",
             "React",
@@ -110,7 +117,8 @@
     },
     {
         "name": "Sh*t Peter Says",
-        "description": "Farewell gift to the instructor.",
+        "tagline": "Farewell gift to the instructor.",
+        "description": "My full stack web development instructor said the darnest things. My fellows and I built a website that randomly generates those darn things he said.",
         "tech": [
             "JavaScript",
             "HTML5",
@@ -125,7 +133,8 @@
     },
     {
         "name": "Snake",
-        "description": "Eat food. Grow. Don't crash.",
+        "tagline": "Eat food. Grow. Don't crash.",
+        "description": "A classic game of snake built on Canvas by following a freeCodeCamp tutorial on Medium.",
         "tech": [
             "JavaScript",
             "HTML Canvas",
@@ -140,7 +149,8 @@
     },
     {
         "name": "Concentration",
-        "description": "Memory matching game",
+        "tagline": "Memory matching game",
+        "description": "A memory matching game where a user must flip over the same cards in pairs to win.",
         "tech": [
             "React",
             "CSS3"
@@ -154,7 +164,8 @@
     },
     {
         "name": "Calculator",
-        "description": "Google Pixel inspired calculator.",
+        "tagline": "Google Pixel inspired calculator.",
+        "description": "It's a calculator but it looks like a Google calculator.",
         "tech": [
             "React",
             "CSS3"
