@@ -1,22 +1,22 @@
 [
     {
         "name": "Helen C.",
-        "image": "../../public/assets/pixel/pixel-helen.png"
+        "image": "./assets/pixel/pixel-helen.png"
     },
     {
         "name": "David S.",
-        "image": "../../public/assets/pixel/pixel-dave.png"
+        "image": "./assets/pixel/pixel-dave.png"
     },
     {
         "name": "Michelle S.",
-        "image": "../../public/assets/pixel/pixel-michelle.png"
+        "image": "./assets/pixel/pixel-michelle.png"
     },
     {
         "name": "Juliet S.",
-        "image": "../../public/assets/pixel/pixel-juliet.png"
+        "image": "./assets/pixel/pixel-juliet.png"
     },
     {
         "name": "Bora J.",
-        "image": "../../public/assets/pixel/pixel-bora.png"
+        "image": "./assets/pixel/pixel-bora.png"
     }
 ]
