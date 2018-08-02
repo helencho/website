@@ -6,7 +6,7 @@ it('renders without crashing', () => {
     expect(shallow(<Projects/>).find('.Projects').exists()).toBe(true);
 });
 
-it('renders same number of images and projects', () => {
+it('renders same number of images and project text', () => {
     const images = shallow(<Projects />).find(<img/>).length;
     const components = shallow(<Projects />).find('h3').length;
     expect(images).toEqual(components);
