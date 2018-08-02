@@ -7,10 +7,7 @@ it('renders without crashing', () => {
 });
 
 it('renders same number of images and projects', () => {
-    // Find length of images 
     const images = shallow(<Projects />).find(<img/>).length;
-    // Find length of ProjectImage components 
-    const components = shallow(<Projects />).find('.ProjectImage').length;
-    // Ensure equality 
+    const components = shallow(<Projects />).find('h3').length;
     expect(images).toEqual(components);
 });
