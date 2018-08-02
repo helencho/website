@@ -3,5 +3,5 @@ import About from '../components/pages/About';
 import { shallow } from 'enzyme';
 
 it('renders without crashing', () => {
-    shallow(<About/>);
+    expect(shallow(<About/>).find('.About').exists()).toBe(true);
 });
