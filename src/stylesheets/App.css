@@ -107,14 +107,29 @@
     font-size: 0.8rem;
     letter-spacing: 0.225em;
     text-transform: uppercase;
+    margin: 0.6rem;
 }
 
 /*--------------------*/
 /*       NavBar       */ 
 /*--------------------*/
 .NavBar {
-    background-color: var(--white, whitesmoke);
-    padding: 1.2rem 0;
+    /* background-color: var(--white, whitesmoke); */
+    border-bottom: 1px solid var(--white, whitesmoke);
+    box-shadow: 0 0 24px var(--white, whitesmoke);
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavBar .logo {
+    width: 26px;
+    height: auto;
+}
+
+.NavBar .nav-links {
+    display: flex;
 }
 
 /*--------------------*/
