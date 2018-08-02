@@ -217,7 +217,7 @@
 
 .overlay {
     background-color: white;
-    opacity: 0.9;
+    opacity: 0.95;
     position: absolute;
     top: 100%;
     overflow: hidden;
