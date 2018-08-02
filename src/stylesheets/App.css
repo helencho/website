@@ -50,10 +50,12 @@
 .main-header {
     text-align: center;
     padding: 1.2rem;
+    color: var(--black, black);
 }
 .sub-header {
     padding: 1.8rem;
     padding-bottom: 1.2rem;
+    color: var(--black, black);
 }
 
 /* Modal fades in when opens */ 
@@ -108,19 +110,17 @@
 }
 .About main > div {
     width: 25%;
-    /* background-color: rgba(0, 255, 0, 0.1); */
+    text-align: center;
 }
 .About main > summary {
     width: 75%;
     line-height: 1.6rem;
-    /* background-color: rgba(0, 0, 255, 0.1); */
 }
 .About main summary > p {
     padding-bottom: 16px;
 }
 .About main,
 .About section {
-    /* background-color: rgba(0, 255, 0, 0.1); */
     padding: 0 2.4rem;
     margin: 2.4rem auto;
 }
@@ -131,7 +131,7 @@
 .Anchor {
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: var(--black, black);
     border-bottom: 1px dotted var(--blue, deepskyblue);
     padding: 0.2rem 0;
     transition: 0.2s all;
@@ -179,7 +179,6 @@
 /*       NavBar       */ 
 /*--------------------*/
 .NavBar {
-    /* background-color: var(--white, whitesmoke); */
     border-bottom: 1px solid var(--white, whitesmoke);
     box-shadow: 0 0 24px var(--white, whitesmoke);
     padding: 1.2rem;
@@ -204,7 +203,6 @@
     width: calc(33% - 1.2rem);
     position: relative;
     margin: 0.6rem;
-    /* background-color: rgba(255, 0, 0, 0.2); */
 }
 
 .ProjectImage:hover .overlay {
@@ -309,7 +307,6 @@
     align-items: center;
     height: 200px;
     margin: 0.6rem;
-    /* background-color: rgba(0, 0, 255, 0.1); */
 }
 
 .Pixel img {
@@ -329,14 +326,12 @@
     display: flex;
     justify-content: space-evenly;
     padding: 1.2rem;
-    /* background-color: rgba(0, 0, 255, 0.1); */
 }
 
 .Skills .skill-box {
     width: 100px;
     height: auto;
     margin: 0.6rem;
-    /* background-color: rgba(0, 0, 255, 0.1); */
 }
 
 /*--------------------*/
@@ -344,14 +339,12 @@
 /*--------------------*/
 .Social {
     padding: 1.2rem;
-    /* background-color: rgba(255, 0, 0, 0.1); */
 }
 .Social a {
     text-decoration: none;
     color: var(--black, black);
     display: inline-block;
     margin: 0.6rem;
-    /* background-color: rgba(255, 0, 0, 0.1); */
 }
 
 /*--------------------*/
@@ -398,9 +391,6 @@
     .About main > div,
     .About main > summary {
         width: 100%;
-    }
-    .About main > div {
-        text-align: center;
     }
     .About main {
         margin-top: 0;
