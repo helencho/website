@@ -284,6 +284,19 @@
 }
 
 /*--------------------*/
+/*       Social       */ 
+/*--------------------*/
+.Social {
+    padding: 1.2rem;
+}
+.Social a {
+    text-decoration: none;
+    color: var(--black, black);
+    display: inline-block;
+    margin: 0.6rem;
+}
+
+/*--------------------*/
 /*   Responsiveness   */
 /*    Media Queries   */
 /*--------------------*/

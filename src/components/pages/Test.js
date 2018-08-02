@@ -4,6 +4,7 @@ import Anchor from '../elements/Anchor';
 import ProjectImage from '../elements/ProjectImage';
 import Pixel from '../elements/Pixel';
 import Skills from '../elements/Skills';
+import Social from '../elements/Social';
 import pixels from '../../db/pixel.json';
 import projects from '../../db/projects.json';
 
@@ -13,6 +14,7 @@ class Test extends Component {
             <div>
                 <h1>Test</h1>
                 <Button text="Primary" />
+                <Social />
                 <p>I walked 5 miles in <Anchor url="#" text="Bear Mountain" /> yesterday.</p>
                 <section className="showcase">
                     <Pixel data={pixels[0]} />
