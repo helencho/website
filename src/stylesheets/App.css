@@ -3,6 +3,9 @@
 /*--------------------*/
 .highlight {
     color: var(--blue, deepskyblue);
+    font-size: 0.8rem;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
 }
 
 .showcase {
