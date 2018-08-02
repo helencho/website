@@ -12,12 +12,48 @@
     display: flex;
     flex-wrap: wrap;
     padding: 1.2rem;
-    /* background-color: rgba(255, 0, 0, 0.1); */
 }
 
-.main-header h1 {
+.fadein {
+    animation: fadein .3s ease-in;
+}
+
+.gray-angled {
+    background-color: var(--white, whitesmoke);
+    position: relative;
+    z-index: 1;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+    .gray-angled:before,
+    .gray-angled:after {
+        background: inherit;
+        content: '';
+        display: block;
+        height: 50%;
+        left: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    .gray-angled:before {
+        top: 0;
+        transform: skewY(1.5deg);
+        transform-origin: 100% 0;
+    }
+    .gray-angled:after {
+        bottom: 0;
+        transform: skewY(-1.5deg);
+        transform-origin: 100%;
+    }
+
+.main-header {
     text-align: center;
     padding: 1.2rem;
+}
+.sub-header {
+    padding: 1.8rem;
+    padding-bottom: 1.2rem;
 }
 
 /* Modal fades in when opens */ 
@@ -26,17 +62,12 @@
     animation: fadein .3s ease-in;
     animation-fill-mode: forwards;
 }
-
 /* Ensures background does not scroll */
 .ReactModal__Body--open {
     overflow: hidden;
     position: fixed;
     width: 100%;
     height: 100%;
-}
-
-.fadein {
-    animation: fadein .3s ease-in;
 }
 
 /*--------------------*/
@@ -67,6 +98,31 @@
     to {
         opacity: 0;
     }
+}
+
+/*--------------------*/
+/*    PAGE : About    */ 
+/*--------------------*/
+.About main {
+    display: flex;
+}
+.About main > div {
+    width: 25%;
+    /* background-color: rgba(0, 255, 0, 0.1); */
+}
+.About main > summary {
+    width: 75%;
+    line-height: 1.6rem;
+    /* background-color: rgba(0, 0, 255, 0.1); */
+}
+.About main summary > p {
+    padding-bottom: 16px;
+}
+.About main,
+.About section {
+    /* background-color: rgba(0, 255, 0, 0.1); */
+    padding: 0 2.4rem;
+    margin: 2.4rem auto;
 }
 
 /*--------------------*/
@@ -288,12 +344,14 @@
 /*--------------------*/
 .Social {
     padding: 1.2rem;
+    /* background-color: rgba(255, 0, 0, 0.1); */
 }
 .Social a {
     text-decoration: none;
     color: var(--black, black);
     display: inline-block;
     margin: 0.6rem;
+    /* background-color: rgba(255, 0, 0, 0.1); */
 }
 
 /*--------------------*/
@@ -333,5 +391,18 @@
     .Skills {
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+    .About main {
+        flex-direction: column;
+    }
+    .About main > div,
+    .About main > summary {
+        width: 100%;
+    }
+    .About main > div {
+        text-align: center;
+    }
+    .About main {
+        margin-top: 0;
     }
 }
