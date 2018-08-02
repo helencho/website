@@ -126,7 +126,19 @@
 }
 
 /*--------------------*/
-/*       Anchor       */
+/*    PAGE : Home    */ 
+/*--------------------*/
+.Home main {
+    padding: 0 2.4rem;
+    margin: 2.4rem auto;
+    text-align: center;
+}
+.Home main > p {
+    padding-bottom: 16px;
+}
+
+/*--------------------*/
+/*  ELEMENT : Anchor  */
 /*--------------------*/
 .Anchor {
     display: inline-block;
