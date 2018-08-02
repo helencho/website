@@ -3,6 +3,7 @@ import Button from '../elements/Button';
 import Anchor from '../elements/Anchor';
 import ProjectImage from '../elements/ProjectImage';
 import Pixel from '../elements/Pixel';
+import Skills from '../elements/Skills';
 import pixels from '../../db/pixel.json';
 import projects from '../../db/projects.json';
 
@@ -31,6 +32,7 @@ class Test extends Component {
                         data={projects[3]}
                     />
                 </section>
+                <Skills />
             </div>
         )
     }

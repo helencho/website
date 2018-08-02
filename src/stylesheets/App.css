@@ -8,6 +8,8 @@
 .showcase {
     display: flex;
     flex-wrap: wrap;
+    padding: 1.2rem;
+    /* background-color: rgba(255, 0, 0, 0.1); */
 }
 
 /* Modal fades in when opens */ 
@@ -116,8 +118,10 @@
 /*    ProjectImage    */ 
 /*--------------------*/
 .ProjectImage {
-    width: 33%;
+    width: calc(33% - 1.2rem);
     position: relative;
+    margin: 0.6rem;
+    /* background-color: rgba(255, 0, 0, 0.2); */
 }
 
 .ProjectImage:hover .overlay {
@@ -221,6 +225,8 @@
     flex-direction: column;
     align-items: center;
     height: 200px;
+    margin: 0.6rem;
+    /* background-color: rgba(0, 0, 255, 0.1); */
 }
 
 .Pixel img {
@@ -233,6 +239,22 @@
     text-transform: uppercase;
 }
 
+/*--------------------*/
+/*       Skills       */ 
+/*--------------------*/
+.Skills {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.2rem;
+    /* background-color: rgba(0, 0, 255, 0.1); */
+}
+
+.Skills .skill-box {
+    width: 100px;
+    height: auto;
+    margin: 0.6rem;
+    /* background-color: rgba(0, 0, 255, 0.1); */
+}
 
 /*--------------------*/
 /*   Responsiveness   */
@@ -240,13 +262,13 @@
 /*--------------------*/
 @media screen and (min-width: 2000px) {
     .ProjectImage {
-        width: 25%;
+        width: calc(25% - 1.2rem);
     }
 }
 
 @media screen and (max-width: 900px) {
     .ProjectImage {
-        width: 50%;
+        width: calc(50% - 1.2rem);
     }
     .ProjectModal .close {
         width: 32px;
@@ -266,6 +288,10 @@
 
 @media screen and (max-width: 520px) {
     .ProjectImage {
-        width: 100%;
+        width: calc(100% - 1.2rem);
+    }
+    .Skills {
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
