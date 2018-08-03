@@ -36,7 +36,7 @@ class ProjectImage extends Component {
     render() {
         return (
             <section className="ProjectImage">
-                <img src={this.props.data.links.img} alt={this.props.data.name} />
+                <img src={this.props.data.links.thumb} alt={this.props.data.name} />
                 <div className="overlay">
                     <summary className="text">
                         <h3 onClick={this.toggleModal}>{this.props.data.name}</h3>
