@@ -142,7 +142,7 @@
         ],
         "links": {
             "img": "./assets/projects/snake-start-screely.png",
-            "live": "http://helencho.io/snake/",
+            "live": "https://helencho.github.io/snake/",
             "source": "https://github.com/helencho/snake"
         },
         "route": "snake"
