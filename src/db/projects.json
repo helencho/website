@@ -11,7 +11,8 @@
             "CSS3"
         ],
         "links": {
-            "img": "./assets/projects/smood-home-screely.png",
+            "thumb": "./assets/projects/thumb/smood.png",
+            "img": "./assets/projects/full/smood.png",
             "live": "https://smood.herokuapp.com/",
             "source": "https://github.com/helencho/smood"
         },
@@ -30,7 +31,8 @@
             "CSS3"
         ],
         "links": {
-            "img": "./assets/projects/elevate-splash-screely.png",
+            "thumb": "./assets/projects/thumb/elevate.png",
+            "img": "./assets/projects/full/elevate.png",
             "live": "http://www.elevate.careers/",
             "source": "https://github.com/davidyshin/elevate"
         },
@@ -46,7 +48,8 @@
             "CSS3"
         ],
         "links": {
-            "img": "./assets/projects/leafbit-market-screely.png",
+            "thumb": "./assets/projects/thumb/leafbit.png",
+            "img": "./assets/projects/full/leafbit.png",
             "live": "https://leafbit.herokuapp.com/",
             "source": "https://github.com/helencho/leafbit"
         },
@@ -61,7 +64,8 @@
             "CSS3"
         ],
         "links": {
-            "img": "./assets/projects/madlify-screely.png",
+            "thumb": "./assets/projects/thumb/madlify.png",
+            "img": "./assets/projects/full/madlify.png",
             "live": "https://madlify.netlify.com/",
             "source": "https://github.com/helencho/madlify"
         },
@@ -77,7 +81,8 @@
             "CSS3"
         ],
         "links": {
-            "img": "./assets/projects/trainme-search-screely.png",
+            "thumb": "./assets/projects/thumb/trainme.png",
+            "img": "./assets/projects/full/trainme.png",
             "live": "https://trainme.netlify.com/",
             "source": "https://github.com/helencho/trainme"
         },
@@ -92,7 +97,8 @@
             "CSS3"
         ],
         "links": {
-            "img": "./assets/projects/connectfour-bw-screely.png",
+            "thumb": "./assets/projects/thumb/connectfour.png",
+            "img": "./assets/projects/full/connectfour.png",
             "live": "https://cccc.netlify.com/",
             "source": "https://github.com/helencho/connectFour"
         },
@@ -109,7 +115,8 @@
             "CSS3"
         ],
         "links": {
-            "img": "./assets/projects/sinistagram-profile-screely.png",
+            "thumb": "./assets/projects/thumb/sinistagram.png",
+            "img": "./assets/projects/full/sinistagram.png",
             "live": "http://sinistagram-gram.herokuapp.com/",
             "source": "https://github.com/helencho/sinistagram"
         },
@@ -125,7 +132,8 @@
             "CSS3"
         ],
         "links": {
-            "img": "./assets/projects/peter-screely.png",
+            "thumb": "./assets/projects/thumb/peter.png",
+            "img": "./assets/projects/full/peter.png",
             "live": "http://shitpetersays.com/",
             "source": "https://github.com/helencho/wisdom-generator"
         },
@@ -141,7 +149,8 @@
             "CSS3"
         ],
         "links": {
-            "img": "./assets/projects/snake-start-screely.png",
+            "thumb": "./assets/projects/thumb/snake.png",
+            "img": "./assets/projects/full/snake.png",
             "live": "https://helencho.github.io/snake/",
             "source": "https://github.com/helencho/snake"
         },
@@ -156,7 +165,8 @@
             "CSS3"
         ],
         "links": {
-            "img": "./assets/projects/concentration-screely.png",
+            "thumb": "./assets/projects/thumb/concentration.png",
+            "img": "./assets/projects/full/concentration.png",
             "live": "https://concentration.netlify.com/",
             "source": "https://github.com/helencho/concentration"
         },
@@ -171,7 +181,8 @@
             "CSS3"
         ],
         "links": {
-            "img": "./assets/projects/calculator-screely.png",
+            "thumb": "./assets/projects/thumb/calculator.png",
+            "img": "./assets/projects/full/calculator.png",
             "live": "https://react-calculator.netlify.com/",
             "source": "https://github.com/helencho/react-calculator"
         },
