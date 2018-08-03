@@ -37,9 +37,9 @@ class ProjectImage extends Component {
         return (
             <section className="ProjectImage">
                 <img src={this.props.data.links.thumb} alt={this.props.data.name} />
-                <div className="overlay">
+                <div className="overlay" onClick={this.toggleModal}>
                     <summary className="text">
-                        <h3 onClick={this.toggleModal}>{this.props.data.name}</h3>
+                        <h3>{this.props.data.name}</h3>
                         <p>{this.props.data.tagline}</p>
                         <p className="highlight">{this.props.data.tech.join(', ')}</p>
                     </summary>

@@ -213,17 +213,15 @@
     position: relative;
     margin: 0.6rem;
 }
-
 .ProjectImage:hover .overlay {
     top: 0;
     height: 100%;
+    cursor: pointer;
 }
-
 .ProjectImage img {
     width: 100%;
     transition: 0.3s ease;
 }
-
 .overlay {
     background-color: white;
     opacity: 0.95;
@@ -235,7 +233,6 @@
     right: 0;
     transition: 0.3s ease;
 }
-
 .text {
     position: absolute;
     overflow: hidden;
@@ -245,10 +242,6 @@
     text-align: center;
     line-height: 1.6;
     transform: translate(-50%, -50%);
-}
-
-.ProjectImage .text h3 {
-    cursor: pointer;
 }
 
 /*------------------------*/
