@@ -1,13 +1,20 @@
 import React from 'react';
 import Projects from '../components/pages/Projects';
-import { shallow } from 'enzyme';
+import ProjectImage from '../components/elements/ProjectImage';
+import ProjectModal from '../components/elements/ProjectModal';
+import projectData from '../db/projects.json';
+import { shallow, mount } from 'enzyme';
 
 it('renders without crashing', () => {
-    expect(shallow(<Projects/>).find('.Projects').exists()).toBe(true);
+    expect(shallow(<Projects />).find('.Projects').exists()).toBe(true);
 });
 
-it('renders same number of images and project text', () => {
-    const images = shallow(<Projects />).find(<img/>).length;
-    const components = shallow(<Projects />).find('h3').length;
-    expect(images).toEqual(components);
+
+describe('<ProjectModal />', () => {
+    it('open modal when .overlay is clicked', () => {
+        const wrapper = shallow(<ProjectImage data={projectData[0]} />);
+        wrapper.find('.overlay').simulate('click');
+        expect(wrapper.find(<ProjectModal />).prop('isOpen')).toEqual(true);
+    })
 });
+
