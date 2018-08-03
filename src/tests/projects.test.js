@@ -43,6 +43,8 @@ describe('projects data object contains', () => {
     it('fullsize image', () => {
         projectData.map(project => {
             expect(project.links.img).toBeTruthy();
+            // Check to see it contains .png or .jpeg 
+            // Check to see it contains correct image link (.toHaveValue) => static url 
         });
     });
 
