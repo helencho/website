@@ -5,11 +5,11 @@ import ProjectModal from '../components/elements/ProjectModal';
 import projectData from '../db/projects.json';
 import { shallow, mount } from 'enzyme';
 
-it('renders without crashing', () => {
+it('Renders without crashing', () => {
     expect(shallow(<Projects />).find('.Projects').exists()).toBe(true);
 });
 
-describe('projects data object contains', () => {
+describe('Projects data object contains', () => {
     it('title as name', () => {
         projectData.map(project => {
             expect(project.name).toBeTruthy();
@@ -43,7 +43,9 @@ describe('projects data object contains', () => {
     it('fullsize image', () => {
         projectData.map(project => {
             expect(project.links.img).toBeTruthy();
-            // Check to see it contains .png or .jpeg 
+            // Check to see it contains .png 
+            expect(project.links.img).toContain('.png');
+
             // Check to see it contains correct image link (.toHaveValue) => static url 
         });
     });
