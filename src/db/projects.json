@@ -72,6 +72,24 @@
         "route": "madlify"
     },
     {
+        "name": "helencho.io",
+        "tagline": "Personal website with simple design.",
+        "description": "A website that encapsulates who I am - my projects, doodles and designs. You're looking at it right now.",
+        "tech": [
+            "React",
+            "Jest", 
+            "Enzyme",
+            "CSS3"
+        ],
+        "links": {
+            "thumb": "./assets/projects/thumb/helencho.io.png",
+            "img": "./assets/projects/full/helencho.io.png",
+            "live": "https://helencho.io",
+            "source": "https://github.com/helencho/website"
+        },
+        "route": "helencho"
+    },
+    {
         "name": "TrainMe",
         "tagline": "Find vocational courses in the NYC area.",
         "description": "A web application that connects individuals looking to start a new career with vocational resources offered in the New York City area. Interacts with ​NYC Open Data API​ to fetch course data. Winner of best user experience at C4Q Access Code’s third annual Hackathon.",
