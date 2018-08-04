@@ -142,7 +142,7 @@
     text-decoration: none;
     color: var(--black, black);
     border-bottom: 1px dotted var(--blue, deepskyblue);
-    padding: 0.2rem 0;
+    /* padding: 0.2rem 0; */
     transition: 0.2s all;
 }
 
