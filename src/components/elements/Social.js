@@ -8,7 +8,7 @@ class Social extends Component {
                 <a href="https://www.linkedin.com/in/haeyoungcho/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in fa-2x fa-fw" /></a>
                 <a href="https://twitter.com/hellohelencho" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter fa-2x fa-fw" /></a>
                 <a href="https://medium.com/@chocoga" target="_blank" rel="noopener noreferrer"><i className="fab fa-medium-m fa-2x fa-fw" /></a>
-                <a href="/assets/website-old.png" target="_blank" rel="noopener noreferrer"><i className="far fa-file-alt fa-2x fa-fw" /></a>
+                {/* <a href="/assets/website-old.png" target="_blank" rel="noopener noreferrer"><i className="far fa-file-alt fa-2x fa-fw" /></a> */}
             </div>
         )
     }
