@@ -5,11 +5,13 @@ import ProjectModal from '../components/elements/ProjectModal';
 import projectData from '../db/projects.json';
 import { shallow, mount } from 'enzyme';
 
-it('Renders without crashing', () => {
-    expect(shallow(<Projects />).find('.Projects').exists()).toBe(true);
+describe('Initial render', () => {
+    it('renders without crashing', () => {
+        expect(shallow(<Projects />).find('.Projects').exists()).toBe(true);
+    });
 });
 
-describe('Projects data object contains', () => {
+describe('Project data object contains', () => {
     it('title as name', () => {
         projectData.map(project => {
             expect(project.name).toBeTruthy();
@@ -34,18 +36,17 @@ describe('Projects data object contains', () => {
         });
     });
 
-    it('thumbnail', () => {
+    it('thumbnail as png', () => {
         projectData.map(project => {
             expect(project.links.thumb).toBeTruthy();
+            expect(project.links.thumb).toContain('.png');
         });
     });
 
-    it('fullsize image', () => {
+    it('fullsize image as png', () => {
         projectData.map(project => {
             expect(project.links.img).toBeTruthy();
-            // Check to see it contains .png 
             expect(project.links.img).toContain('.png');
-
             // Check to see it contains correct image link (.toHaveValue) => static url 
         });
     });
@@ -63,7 +64,7 @@ describe('Projects data object contains', () => {
     });
 });
 
-describe('there are matching', () => {
+describe('There are matching', () => {
     it('images to hidden overlay components', () => {
         const images = mount(<Projects />).find('img').length;
         const overlay = mount(<Projects />).find('.overlay').length;
