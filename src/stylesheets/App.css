@@ -128,10 +128,17 @@
 .Home main {
     padding: 0 2.4rem;
     margin: 2.4rem auto;
-    text-align: center;
+    line-height: 1.6;
 }
-.Home main > p {
-    padding-bottom: 16px;
+.Home main h1 {
+    font-size: 6.6rem;
+    /* padding-bottom: 16px; */
+}
+.Home main h1.fadein-2 {
+    animation: fadein 1.6s ease-in-out;
+}
+.Home main h1.fadein-3 {
+    animation: fadein 3s ease-in-out;
 }
 
 /*--------------------*/
@@ -354,12 +361,21 @@
 /*    Media Queries   */
 /*--------------------*/
 @media screen and (min-width: 2000px) {
+    .Home main {
+        line-height: 2.2;
+    }
+    .Home main h1 {
+        font-size: 10.6rem;
+    }
     .ProjectImage {
         width: calc(25% - 1.2rem);
     }
 }
 
 @media screen and (max-width: 900px) {
+    .Home main h1 {
+        font-size: 4.6rem;
+    }
     .Pixel {
         width: calc(25% - 1.2rem);
     }
@@ -383,6 +399,13 @@
 }
 
 @media screen and (max-width: 650px) {
+    .Home main {
+        margin: 0 auto;
+        padding: 1.2rem 2.4rem;
+    }
+    .Home main h1 {
+        font-size: 3.6rem;
+    }
     .Pixel {
         width: calc(50% - 1.2rem);
     }
