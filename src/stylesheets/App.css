@@ -108,6 +108,7 @@
 .About main > div {
     width: 25%;
     text-align: center;
+    padding-bottom: 16px;
 }
 .About main > summary {
     width: 75%;
