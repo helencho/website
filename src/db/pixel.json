@@ -22,5 +22,13 @@
     {
         "name": "Bora J.",
         "image": "./assets/pixel/pixel-bora.png"
+    },
+    {
+        "name": "Sarah C.",
+        "image": "./assets/pixel/pixel-sarah.png"
+    },
+    {
+        "name": "Eve C.",
+        "image": "./assets/pixel/pixel-eve.png"
     }
 ]
